@@ -1,16 +1,5 @@
-<template lang="">
+<template>
   <div>
-    <header>
-      <nav>
-        <nuxt-link to="/">Nuxt app</nuxt-link>
-        <ul>
-          <li><nuxt-link to="/">home</nuxt-link></li>
-          <li><nuxt-link to="/about">about</nuxt-link></li>
-          <li><nuxt-link to="/products">products</nuxt-link></li>
-        </ul>
-      </nav>
-    </header>
-
     <h2>Home</h2>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
