@@ -7,9 +7,12 @@
       officiis odio voluptatem nisi cumque ea, pariatur quae assumenda harum eum
       consequuntur!
     </p>
+    <p>{{ data }}</p>
   </div>
 </template>
-<script setup></script>
+<script setup>
+const { data } = await useFetch("/api/ninja?name=mario");
+</script>
 <style scoped>
 h2 {
   margin-bottom: 20px;
